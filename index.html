@@ -3,9 +3,133 @@
   <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- BootStrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <!-- My Custom CSS -->
+    <link href="css/style.css" rel="stylesheet"/>
     <title>Panda Store</title>
   </head>
   <body>
-    
+    <header class="pt-4">
+      <nav class="navbar navbar-expand-lg navbar-light">
+	<div class="container">
+	  <a class="navbar-brand" href="#">
+	    <img alt="" src="images/logo.png"/>
+	  </a>
+	  <button class="navbar-toggler" type="button"
+		  data-bs-toggle="collapse" data-bs-target="#navbarContent"
+		  aria-controls="navbarContent" aria-expanded="false"
+		  aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div id="navbarContent" class="collapse navbar-collapse justify-content-around">
+	    <div class="col-lg-6 mt-lg-0 col-12 mt-md-4 mt-2">
+	      <div class="input-group">
+		<input type="text" class="form-control rounded-pill" />
+		<i class="fas fa-search panda-search-icon-position"></i>
+	      </div>
+	    </div>
+	    <ul class="navbar-nav">
+	      <li class="nav-item">
+		<a class="nav-link" href="">Home</a>
+	      </li>
+	      <li class="nav-item">
+		<a class="nav-link" href="">Product</a>
+	      </li>
+	      <li class="nav-item">
+		<a class="nav-link" href="">About Us</a>
+	      </li>
+	      <li class="nav-item">
+		<a class="nav-link" href="">Contact Us</a>
+	      </li>
+	    </ul>
+	  </div>
+	</div>
+      </nav>
+    </header>   
+    <main>
+      <!-- Slider Section -->
+      <section class="container panda-bg-pink-FE panda-rounded-5 mt-5">
+	<div class="row">
+	  <div class="col-12">
+	    <div class="carousel slide" data-bs-ride="carousel">
+	      <div class="carousel-inner">
+		<div class="carousel-item active">
+		  <div class="row d-flex align-items-center justify-content-center">
+		    <div class="col-lg-6 m-lg-5 col-8 m-2">
+		      <h1 class="panda-t-c-b-f1 panda-f-s-3-r panda-f-s-1-r panda-f-w-700">
+			Mi HEADPHONE 4C PRO
+		      </h1>
+		      <p class="panda-t-c-b-4E w-75 fs-6 d-none d-sm-block">
+			Amet minim mollit non deserunt ullamco est
+			sit aliqua dolor do amet sint. Velit officia
+			consequat duis enim velit mollit. Exercitation
+			veniam consequat sunt nostrud amet.
+		      </p>
+		      <h2 class="panda-t-c-r-13 ">$1289</h2>
+		      <button type="button" class="btn panda-btn-pink text-white panda-btn-lg">
+			BUY NOW <i class="fas fa-arrow-right ps-3"></i>
+		      </button>
+		    </div>
+		    <div class="col-lg-4 m-lg-5 col-3 d-flex justify-content-center">
+		      <img alt="" src="images/banner-images/headphone.png" width="85%" />
+		    </div>
+		  </div>
+		</div>
+		<div class="carousel-item">
+		  <div class="row d-flex align-items-center justify-content-center">
+		    <div class="col-lg-6 m-lg-5 col-8 m-2">
+		      <h1 class="panda-t-c-b-f1 panda-f-s-3-r panda-f-s-1-r panda-f-w-700">
+			Mi TV 4C PRO
+		      </h1>
+		      <p class="panda-t-c-b-4E w-75 fs-6 d-none d-sm-block">
+			Amet minim mollit non deserunt ullamco est
+			sit aliqua dolor do amet sint. Velit officia
+			consequat duis enim velit mollit. Exercitation
+			veniam consequat sunt nostrud amet.
+		      </p>
+		      <h2 class="panda-t-c-r-13 ">$1289</h2>
+		      <button type="button" class="btn panda-btn-pink text-white panda-btn-lg">
+			BUY NOW <i class="fas fa-arrow-right ps-3"></i>
+		      </button>
+		    </div>
+		    <div class="col-lg-4 m-lg-5 col-3 d-flex justify-content-center">
+		      <img alt="" src="images/banner-images/tv.png" width="85%" />
+		    </div>
+		  </div>
+		</div>
+		<div class="carousel-item">
+		  <div class="row d-flex align-items-center justify-content-center">
+		    <div class="col-lg-6 m-lg-5 col-8 m-2">
+		      <h1 class="panda-t-c-b-f1 panda-f-s-3-r panda-f-s-1-r panda-f-w-700">
+			Mi XBOX PRO
+		      </h1>
+		      <p class="panda-t-c-b-4E w-75 fs-6 d-none d-sm-block">
+			Amet minim mollit non deserunt ullamco est
+			sit aliqua dolor do amet sint. Velit officia
+			consequat duis enim velit mollit. Exercitation
+			veniam consequat sunt nostrud amet.
+		      </p>
+		      <h2 class="panda-t-c-r-13 ">$1289</h2>
+		      <button type="button" class="btn panda-btn-pink text-white panda-btn-lg">
+			BUY NOW <i class="fas fa-arrow-right ps-3"></i>
+		      </button>
+		    </div>
+		    <div class="col-lg-4 m-lg-5 col-3 d-flex justify-content-center">
+		      <img alt="" src="images/banner-images/xbox.png" width="85%" />
+		    </div>
+		  </div>
+		</div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+      </section>
+    </main>
+    <footer>
+      <p class="text-center">&#169; Panda Store 2021.</p>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/fc813874b8.js" crossorigin="anonymous"></script>
   </body>
 </html>
