@@ -21,3 +21,9 @@ shoeCardImage.addEventListener("mouseout", function (event) {
   event.target.src = "images/shoes/shoe-3.png";
 });
 // dblclick
+document
+  .getElementById("contact")
+  .addEventListener("dblclick", function (event) {
+    event.target.classList.remove("panda-bg-pink-FE");
+    event.target.classList.add("panda-r-bg");
+  });
